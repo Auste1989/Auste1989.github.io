@@ -2,10 +2,10 @@
 permalink:           pretty
 
 # Setup
-title:               Z.W. Miller
+title:               Auste's Data Science blog
 tagline:             A Moderately Okay Data Science Blog
-url:                 http://zwmiller.com
-paginate:            2
+url:                 https://Auste1989.github.io/
+paginate:            4
 baseurl:             ""
 
 # Assets
@@ -17,14 +17,14 @@ sass:
 
 # About/contact
 author:
-  name:              Zach Miller
-  url:               https://twitter.com/zaglamir
-  email:             zach@thisismetis.com
+  name:              Auste Mastaviciute
+  url:               https://www.linkedin.com/in/auste-mastaviciute-59a58a54/
+  email:             auste.m@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/zwmiller
+  repo:              https://github.com/Auste1989
 
 # Gems
 gems:

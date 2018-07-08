@@ -2,13 +2,13 @@
 layout: post
 title: My First Data Science Project
 ---
-### Intro
+## Intro
 >> *“We need women at all levels, including the top, to change the dynamic, reshape the conversation, to make sure women’s voices are heard and heeded, not overlooked and ignored.” **Sheryl Sandberg, Facebook COO***
 
 A New York based organization called WomenTechWomenYes (WTWY) has reached out to my team asking for help. As an NGO (Non-Governmental Organization) they mostly depend on donations from members and the general public. Every year WTWY organises an Annual Summer Gala to increase awareness of gender diversity gaps in technology industry and raise funds that will allow them to continue inspiring women to take on the challenge and succeed in various tech roles (such as Data Scientists or Data Engineers).
 The organization mostly relies on volunteers to promote their annual events, they would like to optimize the allocation of their flyer distributing street teams in order to maximize the signups and, in turn, the attendance and donations. Without further ado, we took on the challenge! 
 
-### Plan of action 
+## How we did it 
 * Split our team into sub-teams (New York subway station (MTA) Data, Google Maps API, Visualization)
 * Scrape MTA data from their website
 * Explore, clean and analyse it
@@ -20,17 +20,17 @@ The organization mostly relies on volunteers to promote their annual events, the
 * Provide WTWY with a general recommendation for Top 20 stations to focus on
 * Additionally, create a tool that will allow a quick allocation of resources based on weekday and hour
 
-### Results
+## What we've discovered
 As our target audience, we have chosen a young woman called Becky, who is in her 20s /  30s, works for a tech company and loves Starbucks coffee. Given this profile, we matched up the highest velocity stations with distance to the nearest Tech companies, Starbucks coffee shops and residentials areas with a higher women to men ratio.   
 As an example, even though Flushing Main street station had higher passanger velocity than 59 St. and Columbus Circle, the latter was ranked higher due to it's proximity to large tech companies and Starbucks coffee shops. 
 Our results suggested that teams should be positioned around the stations in Lower Manhatten, such as Times Sq and 42 St or East 14th St, as well as a couple of stations in Brooklyn and Queens.  
 
-**The plot of busiest New York subway stations**
+**Headmap of the busiest New York subway stations**
 ![Image Missing](https://github.com/nalehc/gala_flyer_locations/blob/master/subway_plot.png)
 
 **Final Top 10 stations**
 ![Image Missing]()
 
 
-### Hope you enjoyed this post. If work for an organization that could use similar analysis, please do not hesitate to reach out to me to discuss potential work the team could do for you!
+### I bet Your organization could also use data science driven analysis to gain competitive advantage! Please do not hesitate to reach out to discuss potential work this team could do for You!
 

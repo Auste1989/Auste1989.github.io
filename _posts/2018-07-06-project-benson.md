@@ -25,11 +25,11 @@ As our target audience, we have chosen a young woman called Becky, who is in her
 As an example, even though Flushing Main street station had higher passanger velocity than 59 St. and Columbus Circle, the latter was ranked higher due to it's proximity to large tech companies and Starbucks coffee shops. 
 Our results suggested that teams should be positioned around the stations in Lower Manhatten, such as Times Sq and 42 St or East 14th St, as well as a couple of stations in Brooklyn and Queens.  
 
-**Headmap of the busiest New York subway stations**
+**Heatmap of the busiest New York subway stations**
 ![Image Missing](https://github.com/nalehc/gala_flyer_locations/blob/master/subway_plot.png)
 
-**Final Top 10 stations**
-![Image Missing]()
+**Final Top 10 Recommended Stations**
+![Image Missing](https://github.com/nalehc/gala_flyer_locations/blob/master/Final%20Recommendation%20Map.png)
 
 
 ### I bet Your organization could also use data science driven analysis to gain competitive advantage! Please do not hesitate to reach out to discuss potential work this team could do for You!

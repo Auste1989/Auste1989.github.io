@@ -17,6 +17,6 @@ I sincerely believe that technology isn't just for people who are good at it, te
 
 Have questions about me or suggestions for the blog? Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/auste-mastaviciute-59a58a54/) or [email me](auste.m@gmail.com).
 
-*This blog was created while listing to some of the best Electronic Dance Music (EDM) tunes by Gareth Emery, Paul van Dyk and Alex M.O.R.P.H. :notes:   * 
+*This blog was created while listing to some of the best Electronic Dance Music (EDM) tunes by Gareth Emery, Paul van Dyk and Alex M.O.R.P.H.* :notes: 
 
 Thanks for reading!

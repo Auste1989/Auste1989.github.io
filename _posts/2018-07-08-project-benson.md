@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: post 
 title: My First Data Science Project
-datetime: 2018-07-08
 ---
+
 ## Intro
 >> *“We need women at all levels, including the top, to change the dynamic, reshape the conversation, to make sure women’s voices are heard and heeded, not overlooked and ignored.” **Sheryl Sandberg, Facebook COO***
 

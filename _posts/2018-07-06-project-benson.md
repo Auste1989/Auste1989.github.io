@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: My First Data Science Project
 ---
 ## Intro

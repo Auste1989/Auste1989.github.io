@@ -30,6 +30,7 @@ github:
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - jemoji
 
 # Page List
 pages_list:       

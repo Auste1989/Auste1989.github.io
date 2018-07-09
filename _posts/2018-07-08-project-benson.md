@@ -1,6 +1,6 @@
 ---
 layout: post 
-title My First Data Science Project
+title: My First Data Science Project
 ---
 
 ## Intro

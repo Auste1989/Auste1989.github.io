@@ -12,15 +12,15 @@ The organization mostly relies on volunteers to promote their annual events, the
 
 ## How we did it: 
 * Split our team into sub-teams (New York subway station (MTA) Data, Google Maps API, Visualization)
-* Scrape MTA data from their website
-* Explore, clean and analyse it
-* Generate a list of stations with the highest passenger velocity
-* Based on the list of stations, query Google Maps data of nearby Tech companies and Starbucks coffee shops
-* Use Census demographics data to identify areas with more female residents
-* Score each station based on above criteria
-* Depict the results on the New York map (using GeoPandas)
-* Provide WTWY with a general recommendation for Top 20 stations to focus on
-* Additionally, create a tool that will allow a quick allocation of resources based on weekday and hour
+* Scraped MTA data from their website
+* Explored, cleaned and analysed it
+* Generated a list of stations with the highest passenger velocity
+* Based on the list of stations, queried Google Maps data of nearby Tech companies and Starbucks coffee shops
+* Used Census demographics data to identify areas with more female residents
+* Scored each station based on above criteria
+* Depicted results on the New York map (using GeoPandas)
+* Provided WTWY with a general recommendation for Top 20 stations to focus on
+* Additionally, created a tool that will allow a quick allocation of resources based on weekday and hour
 
 ## What we discovered:
 As our target audience, we have chosen a young woman called Becky, who is in her 20s /  30s, works for a tech company and loves Starbucks coffee. Given this profile, we matched up the highest velocity stations with distance to the nearest Tech companies, Starbucks coffee shops and residentials areas with a higher women to men ratio.   

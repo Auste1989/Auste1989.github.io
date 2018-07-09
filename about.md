@@ -14,8 +14,8 @@ Fast-forward another six months, I found myself applying for a full-time Data Sc
  This blog started off as part of my education in the Immersive Data Science Bootcamp at [Metis San Francisco](https://www.thisismetis.com/). Here you'll be able to read about my projects, investigations and technology related topics I feel most passionate about.
 I sincerely believe that technology isn't just for people who are good at it, technology is just like art or music, you don't have to know how to do it in order to appreciate it.
 
-Have questions about me or suggestions for the blog? Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/auste-mastaviciute-59a58a54/) or email me: auste.m@gmail.com.
+Have questions about me or suggestions for the blog? Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/auste-mastaviciute-59a58a54/).
 
-*This blog was created while listing to some of the best Electronic Dance Music (EDM) tunes by Gareth Emery, Paul van Dyk and Alex M.O.R.P.H.* :notes: 
+:notes:  *This blog was created while listing to some of the best Electronic Dance Music (EDM) tunes by Gareth Emery, Paul van Dyk and Alex M.O.R.P.H.* 
 
 Thanks for reading!

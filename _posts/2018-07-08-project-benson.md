@@ -28,11 +28,11 @@ As an example, even though Flushing Main street station had higher passanger vel
 Our results suggested that teams should be positioned around the stations in Lower Manhatten, such as Times Sq and 42 St or East 14th St, as well as a couple of stations in Brooklyn and Queens.  
 
 **Heatmap of the busiest New York subway stations**  
-![Image Missing (Annoying)]({{"/assets/subway_plot.png"|https://github.com/Auste1989/Auste1989.github.io/blob/master/assets/subway_plot.png}})
+![Image Missing]({{"/assets/subway_plot.png"|https://github.com/Auste1989/Auste1989.github.io/blob/master/assets/subway_plot.png}})
 
 **Final Top 10 Recommended Stations**   
 
-![Image Missing](https://github.com/Auste1989/Auste1989.github.io/blob/master/assets/Final%20Recommendation%20Map.png)
+![Image Missing]({{"/assets/Final Recommendation Map.png"|https://github.com/Auste1989/Auste1989.github.io/blob/master/assets/Final%20Recommendation%20Map.png}})
 
 ### I bet Your organization could also use data science driven analysis to gain competitive advantage! Please do not hesitate to reach out to discuss potential work this team could do for You!
 

@@ -1,30 +1,22 @@
+# Dependencies
+markdown:	kramdown
 # Permalinks
-permalink:           pretty
+permalink:	pretty
 
 # Setup
-title:               Auste's Data Science blog
-tagline:             The Beginning...
-url:                 https://Auste1989.github.io/
-paginate:            4
-baseurl:             ""
+title:            Auste's Data Science blog
+tagline:          The Beginning...
+url:              http://Auste1989.github.io/
+baseurl:          
+commentsystem:    google
+disqus:           example
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
 author:
-  name:              Auste Mastaviciute
-  url:               https://www.linkedin.com/in/auste-mastaviciute-59a58a54/
-  email:             auste.m@gmail.com
+  name:           Auste Mastaviciute
+  url:            https://www.linkedin.com/in/auste-mastaviciute-59a58a54/
+  email:          auste.m@gmail.com
 
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/Auste1989
+paginate:         4
 
 # Gems
 gems:
@@ -32,12 +24,33 @@ gems:
   - jekyll-gist
   - jemoji
 
-# Includes an icon in the footer for each user name
-footer-link:
-  github: Auste1989
+# Custom vars
+icon:             /assets/images/icon.png
+cover:            /assets/images/cover.jpg
 
-# Page List
-pages_list:       
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/index.html'
+social:
+
+  - icon:         github
+    url:          https://github.com/Auste1989
+    desc:         Fork me on github
+
+menu:
+  - title:        Home
+    url:          /
+
+  - title:        About
+    url:          /about
+
+copyright:
+  author:         Auste Mastaviciute 
+  url:            http://Auste1989.github.io
+  type_title:     Some rights reserved
+  type_url:       http://creativecommons.org/licenses/by-nc/2.5
+
+parallax:         false
+
+# Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
+google_analytics:  
+
+# Default Theme Color for Chrome on Android Lollipop (Use RGB ColorCode without `#`, e.g.: `db5945`)
+theme_color:       7E9576

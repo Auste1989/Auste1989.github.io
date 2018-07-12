@@ -32,6 +32,10 @@ gems:
   - jekyll-gist
   - jemoji
 
+# Includes an icon in the footer for each user name
+footer-link:
+  github: Auste1989
+
 # Page List
 pages_list:       
   About: '/about'

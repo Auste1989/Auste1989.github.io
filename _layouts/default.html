@@ -22,7 +22,10 @@
       </main>
 
       <footer class="footer">
-        <small>
+        {% if site.footer-links.github %}<a
+      href="http://github.com/{{ site.footer-links.github
+      }}">{% include svg-icons/github.html %}</a>{% endif %}
+	<small>
           &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
         </small>
       </footer>

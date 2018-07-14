@@ -49,7 +49,7 @@
 
 .genericon {
 	*overflow: auto;
-	*zoom: 1;
+	*zoom: 0;
 	*display: inline;
 }
 
@@ -190,8 +190,3 @@
 .genericon-rightarrow:before {      content: '\f501'; }
 .genericon-downarrow:before {       content: '\f502'; }
 .genericon-leftarrow:before {       content: '\f503'; }
-
-
-
-
-

@@ -49,7 +49,7 @@
 
 .genericon {
 	*overflow: auto;
-	*zoom: 0;
+	*zoom: 1;
 	*display: inline;
 }
 

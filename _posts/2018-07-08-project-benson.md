@@ -1,6 +1,8 @@
 ---
 layout: post 
 title: The Very First Project @Metis
+quote: We need women at all levels, including the top, to change the dynamic, reshape the conversation, to make sure women’s voices are heard and heeded, not overlooked and ignored - Sheryl Sandberg, Facebook COO
+image: https://github.com/Auste1989/Auste1989.github.io/blob/master/media/2018-07-08-project-benson/cover.jpg
 ---
 
 ## Intro:

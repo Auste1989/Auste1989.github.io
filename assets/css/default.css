@@ -37,7 +37,7 @@ footer {
 p {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	color: #000000;
+	color: #515151;
 }
 
 a {
@@ -95,7 +95,7 @@ h3 {
 }
 
 #home-title {
-	left: 50%;
+	left: 75%;
 	top: 50%;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -334,7 +334,7 @@ pre code {
 }
 
 .dark, .dark a {
-	color: #555;
+	color: #000000;
 }
 
 .social-links {

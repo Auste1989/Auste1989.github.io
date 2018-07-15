@@ -95,7 +95,7 @@ h3 {
 }
 
 #home-title {
-	left: 75%;
+	left: 50%;
 	top: 50%;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -334,7 +334,7 @@ pre code {
 }
 
 .dark, .dark a {
-	color: #000000;
+	color: #000;
 }
 
 .social-links {

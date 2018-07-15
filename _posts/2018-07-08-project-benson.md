@@ -1,7 +1,6 @@
 ---
 layout: post 
-title: The Very First Project @Metis
-quote: We need women at all levels, including the top, to change the dynamic, reshape the conversation, to make sure women’s voices are heard and heeded, not overlooked and ignored - Sheryl Sandberg, Facebook COO
+title: Project 1 @Metis
 image:
       url: /media/2018-07-08-project-benson/cover.jpg
 ---
@@ -9,6 +8,10 @@ image:
 ## Intro:
 A New York based organization called WomenTechWomenYes (WTWY) has reached out to my team asking for help. As an NGO (Non-Governmental Organization) they mostly depend on donations from members and the general public. Every year WTWY organises an Annual Summer Gala to increase awareness of gender diversity gaps in technology industry and raise funds that will allow them to continue inspiring women to take on the challenge and succeed in various tech roles (such as Data Scientists or Data Engineers).
 The organization mostly relies on volunteers to promote their annual events, they would like to optimize the allocation of their flyer distributing street teams in order to maximize the signups and, in turn, the attendance and donations. Without further ado, we took on the challenge! 
+
+> We need women at all levels, including the top, to change the dynamic, reshape the conversation, to make sure women’s voices are heard and heeded, not overlooked and ignored
+> - Sheryl Sandberg, Facebook COO
+
 
 ## How we did it: 
 * Split our team into sub-teams (New York subway station (MTA) Data, Google Maps API, Visualization)

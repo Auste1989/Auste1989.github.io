@@ -1,6 +1,7 @@
 ---
 layout: post 
 title: Project 1 @Metis
+dark: true
 image:
       url: /media/2018-07-08-project-benson/cover.jpg
 ---

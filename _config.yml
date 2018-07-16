@@ -6,7 +6,7 @@ permalink:	pretty
 # Setup
 title:            Auste's Data Science blog
 tagline:          The Beginning...
-url:              http://Auste1989.github.io/
+url:              http://mastaus.github.io/
 baseurl:          
 commentsystem:    google
 disqus:           example
@@ -31,7 +31,7 @@ cover:            /assets/images/cover.jpg
 social:
 
   - icon:         github
-    url:          https://github.com/Auste1989
+    url:          https://github.com/mastaus
     desc:         Fork me on github
 
 menu:
@@ -43,7 +43,7 @@ menu:
 
 copyright:
   author:         Auste Mastaviciute 
-  url:            http://Auste1989.github.io
+  url:            http://mastaus.github.io
   type_title:     Some rights reserved
   type_url:       http://creativecommons.org/licenses/by-nc/2.5
 

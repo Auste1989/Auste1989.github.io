@@ -49,4 +49,4 @@ If you are interested in my final presentation it's available [HERE](https://doc
 
 If you would like to see my code or play around with the model itself, checkout my [GitHub page](https://github.com/mastaus/metis_projects/tree/master/Car_Price_Estimation).
 
-I hope you enjoyed my post. Your feedback would be much appreciated!
+### I hope you enjoyed my post. Your feedback would be much appreciated!

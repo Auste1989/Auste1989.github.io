@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Estimating Second-hand Car Price in Lithuania? 
-dark: true
+dark: false
 image:
       url: /media/2018-07-22-car-price-predictor/cover.jpg
 ---

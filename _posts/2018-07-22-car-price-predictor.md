@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Estimating Second-hand Car Price in Lithuania? 
+image:
+      url: /media/2018-07-22-car-price-predictor/cover.jpg
 ---
+
 ## Intro:
 If you have ever owned a car and you are not a car dealer or a child of one (like I am), you must have spent quite some time scratching your head, wondering how much to sell your old car. For starters, likely you are either emotionally attached to your car or absolutely hate it, and therefore biased when deciding how to price it.
 If you've ever been in the described situation, read on! *But even if you haven't, keep reading, you might in the future.* :smirk:

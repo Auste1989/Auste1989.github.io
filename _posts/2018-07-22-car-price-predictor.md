@@ -8,7 +8,7 @@ If you've ever been in the described situation, read on! *But even if you haven'
 
 ## What and How?
 I have been working on testing if Linear Regression can help me to estimate a second-hand car price in the Lithuanian market. I used two web-scraping techniques: Selenium and BeautifulSoup to retrieve car data from [Autoplius.lt](https://en.autoplius.lt/) website (the most popular second hand dealership website in Lithuania).   
-I collected a dataset of about 1500 different cars, which I chose to first save in a binary format, in other words, *pickled* it.
+I collected a dataset of about 1500 different cars, which I chose to first save in a binary format, in other words, *pickle* it.
 
 ## Challenges
 It was now turn for the "fun" part - cleaning it up. To begin with, the data came in a text format (including price and other numerical features), I created a few helper to help with this process. Secondly, a lot of my data was categorical (i.e. text), e.g. Make, which cannot be used in a Linear Regression model, so I had to *dummify* some of those variables, because removing them completely would have signidicantly decreased the chances of developing a good model. In order to account for the Make and Colour, I created a variables to identify German, French and Japanese cars, and white and red cards, respectively.

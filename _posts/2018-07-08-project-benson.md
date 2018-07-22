@@ -1,24 +1,30 @@
 ---
-layout: post
-title: My First Data Science Project
+layout: post 
+title: Project 1 @Metis
+dark: true
+image:
+      url: /media/2018-07-08-project-benson/cover.jpg
 ---
-## Intro
->> *“We need women at all levels, including the top, to change the dynamic, reshape the conversation, to make sure women’s voices are heard and heeded, not overlooked and ignored.” **Sheryl Sandberg, Facebook COO***
 
+## Intro:
 A New York based organization called WomenTechWomenYes (WTWY) has reached out to my team asking for help. As an NGO (Non-Governmental Organization) they mostly depend on donations from members and the general public. Every year WTWY organises an Annual Summer Gala to increase awareness of gender diversity gaps in technology industry and raise funds that will allow them to continue inspiring women to take on the challenge and succeed in various tech roles (such as Data Scientists or Data Engineers).
 The organization mostly relies on volunteers to promote their annual events, they would like to optimize the allocation of their flyer distributing street teams in order to maximize the signups and, in turn, the attendance and donations. Without further ado, we took on the challenge! 
 
+> We need women at all levels, including the top, to change the dynamic, reshape the conversation, to make sure women’s voices are heard and heeded, not overlooked and ignored
+> - Sheryl Sandberg, Facebook COO
+
+
 ## How we did it: 
 * Split our team into sub-teams (New York subway station (MTA) Data, Google Maps API, Visualization)
-* Scrape MTA data from their website
-* Explore, clean and analyse it
-* Generate a list of stations with the highest passenger velocity
-* Based on the list of stations, query Google Maps data of nearby Tech companies and Starbucks coffee shops
-* Use Census demographics data to identify areas with more female residents
-* Score each station based on above criteria
-* Depict the results on the New York map (using GeoPandas)
-* Provide WTWY with a general recommendation for Top 20 stations to focus on
-* Additionally, create a tool that will allow a quick allocation of resources based on weekday and hour
+* Scraped MTA data from their website
+* Explored, cleaned and analysed it
+* Generated a list of stations with the highest passenger velocity
+* Based on the list of stations, queried Google Maps data of nearby Tech companies and Starbucks coffee shops
+* Used Census demographics data to identify areas with more female residents
+* Scored each station based on above criteria
+* Depicted results on the New York map (using GeoPandas)
+* Provided WTWY with a general recommendation for Top 20 stations to focus on
+* Additionally, created a tool that will allow a quick allocation of resources based on weekday and hour
 
 ## What we discovered:
 As our target audience, we have chosen a young woman called Becky, who is in her 20s /  30s, works for a tech company and loves Starbucks coffee. Given this profile, we matched up the highest velocity stations with distance to the nearest Tech companies, Starbucks coffee shops and residentials areas with a higher women to men ratio.   
@@ -26,12 +32,11 @@ As an example, even though Flushing Main street station had higher passanger vel
 Our results suggested that teams should be positioned around the stations in Lower Manhatten, such as Times Sq and 42 St or East 14th St, as well as a couple of stations in Brooklyn and Queens.  
 
 **Heatmap of the busiest New York subway stations**  
-![Image Missing](https://github.com/nalehc/gala_flyer_locations/blob/master/subway_plot.png)
+![Image Missing]({{"/assets/subway_plot.png"|https://github.com/Auste1989/Auste1989.github.io/blob/master/assets/subway_plot.png}})
 
 **Final Top 10 Recommended Stations**   
 
-![Image Missing](https://github.com/nalehc/gala_flyer_locations/blob/master/Final%20Recommendation%20Map.png)
-
+![Image Missing]({{"/assets/Final Recommendation Map.png"|https://github.com/Auste1989/Auste1989.github.io/blob/master/assets/Final%20Recommendation%20Map.png}})
 
 ### I bet Your organization could also use data science driven analysis to gain competitive advantage! Please do not hesitate to reach out to discuss potential work this team could do for You!
 

@@ -45,7 +45,7 @@ As I learn new Data Science techniques, I would like to refine this model to acc
 
 ## The Product
 
-If you are interested in my final presentation it's available [HERE](https://docs.google.com/presentation/d/1AWq3BJ6FTHG31dSinrZBUF_bDULnI8BUTrLn_kL36Q0/edit#slide=id.p).
+If you are interested in my final presentation it's available [HERE](https://docs.google.com/presentation/d/1AWq3BJ6FTHG31dSinrZBUF_bDULnI8BUTrLn_kL36Q0/edit#slide=id.p).   
 If you would like to see my code or play around with the model itself, checkout my [GitHub page](https://github.com/mastaus/metis_projects/tree/master/Car_Price_Estimation).
 
 ### I hope you enjoyed my post. Your feedback would be much appreciated!

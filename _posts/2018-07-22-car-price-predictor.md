@@ -33,6 +33,7 @@ As the last step of cleaning process, I dropped all the cars that had any missin
 In search for the best model I explored a few options:
 * Simple model with no transformation to any of the variables
 * A model with logarithmic price transformation (normalized the distribution)
+![Missing Image]({{"/assets/Price_Transformation.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/Price_Transformation.png"}})
 
 * Linear Regression model after normalization and regularization (Ridge and Lasso)  
  

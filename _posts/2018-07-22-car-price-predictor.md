@@ -33,11 +33,12 @@ As the last step of cleaning process, I dropped all the cars that had any missin
 In search for the best model I explored a few options:
 1. Simple model with no transformation to any of the variables
 2. A model with logarithmic price transformation (normalized the distribution)
+
+![Missing Image]({{"/assets/Price_Transformation.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/Price_Transformation.png"}})
 3. Linear Regression model after normalization and regularization (Ridge and Lasso)  
  
 **Number 2 won the race!**
 
-![Missing Image]({{"/assets/Price_Transformation.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/Price_Transformation.png"}})
 
 ### Results:
 The model was trained on 70% of the dataset, while the remaining 30% was used to test it. The results were better than expected (given the challenges):  

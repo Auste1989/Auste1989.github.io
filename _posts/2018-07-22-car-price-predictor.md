@@ -9,12 +9,11 @@ If you have ever owned a car and you are not a car dealer or a child of one (lik
 If you've ever been in the described situation, read on! *But even if you haven't, keep reading, you might in the future.* :smirk:
 
 ## What and How?
-As part of my quest to learn more about Data Science, I took on a challenge to see if Linear Regression can help me to estimate a second-hand car price (in Lithuania). I used two web-scraping techniques: Selenium and BeautifulSoup to retrieve car data from [Autoplius.lt](https://en.autoplius.lt/) website (the most popular second hand dealership website in Lithuania).   
-I collected a dataset of about 1500 different cars and *pickled it* for later (yep, pickling is a thing in computer science :laughing:).
+As part of my quest to learn more about Data Science, I took on a challenge to see if Linear Regression can help me to estimate a second-hand car price (in Lithuania). Using two web-scraping techniques: Selenium and BeautifulSoup I retrieved about 1,500 second-hand car records from [Autoplius.lt](https://en.autoplius.lt/) website.   
 
 ### Challenges:
-It was then turn for the "fun" part - cleaning it up. To begin with, the data came in a text format (including price and other numerical features), I created a few helper functions in order to easily convert them to numbers. Secondly, a lot of my data was categorical (e.g. Make = BMW). Unfortunately, qualitative variables cannot be used in a Linear Regression model, I ended up creating *dummy variables* to replace them, because removing them completely would have significantly decreased my chances of developing a good model.   In order to somewhat account for the effect make has on price, I created variables to identify German, French and Japanese cars. For that of colour, I added flags to mark white and red colours.  
-Now, I was finally able to review my dataset. Thorough data analysis helped to identify outliers, such as cars that are older than 1995 or newer than 2016, cars with a price lower than €200 or more expensive than €40,000, as well as, cars with zero mileage (new) or ones with more than 450,000km driven. I went ahead and excluded the outliers, since my model was not being designed to account for such extreme cases.   
+It was then turn for the "fun" part - cleaning it up. To begin with, the data came in text format (including price and other numerical features), I created a few helper functions in order to easily convert them to numbers. Secondly, a lot of my data was categorical (e.g. Make = BMW). Unfortunately, qualitative variables cannot be used in a Linear Regression model, I ended up creating *dummy variables* to replace them, because removing them completely would have significantly decreased my chances of developing a good model.   In order to somewhat account for the effect make has on price, I created variables to identify German, French and Japanese cars. For that of colour, I added flags to mark white and red cars.  
+Now I was finally able to review my dataset. Thorough data analysis helped to identify outliers, such as cars that are older than 1995 or newer than 2016, cars with a price lower than €200 or more expensive than €40,000, as well as, cars with zero mileage (new) or ones with more than 450,000km driven. I went ahead and excluded the outliers, since my model was not being designed to account for such extreme cases.   
 Finally, after assessing correlation plots, I narrowed down my dataset to the target variable (Price) and the following features:
 1. Year of manufacture
 2. Gearbox (manual / automatic)
@@ -26,25 +25,27 @@ Finally, after assessing correlation plots, I narrowed down my dataset to the ta
 8. Red colour
 9. White colour
 
-Once the dataset was narrowed down, as the last step of cleaning, I dropped all the cars that had missing values for my chosen 9 features. The final dataset contains 1,015 cars in total.
+As the last step of cleaning process, I dropped all the cars that had any missing values for my chosen 9 features. The final dataset contains 1,015 cars in total.
 
 ### Modelling:
 In search for the best model I explored a few options:
 1. Simple model with no transformation to any of the variables
 2. A model with logarithmic price transformation (normalized the distribution)
-3. Linear Regression model after normalization and regularization (Ridge and Lasso)   
-Number 2 won the race!
+3. Linear Regression model after normalization and regularization (Ridge and Lasso)  
+ 
+**Number 2 won the race!**
 
-![Missing Image]({{"/assets/Price_Transformation.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/Price_Transformation.png}}
+![Missing Image]({{"/assets/Price_Transformation.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/Price_Transformation.png"}})
 
 ### Results:
-The model was trained on 70% of the dataset, and the remaining 30% was used to test it. The results were better than expected, given the challenges:  
+The model was trained on 70% of the dataset, while the remaining 30% was used to test it. The results were better than expected (given the challenges):  
 * Price estimate at around 62% accuracy
-* 67% of the variance in price explained by the 9 selected features (when run on the test dataset)
+* 67% of the variance in price explained by the 9 selected features *(when run on the test dataset)*
 
-Even though results sound pretty good, when putting it in context, things don't seem so rosy. The average price of a car in my dataset is €5,700, the median price is just short of €4,000 and the average error is about €2,480. At the moment, my product cannot tell the difference between a BMW or Mercedes-Benz and an Open or Audi (they are all German cars in it's view). :flushed:    It's always good to put things into perspective :smirk:  
+Even though results sound pretty good, when putting it in context, things don't seem so rosy. The average price of a car in my dataset is €5,700, the median price is just short of €4,000 and the average error is about €2,480. At the moment, my product cannot tell the difference between a BMW or Mercedes-Benz and an Open (they are all German cars in it's view). :flushed:   
+Always good to put things into perspective :smirk:  
 
-## The Future:
+### The Future:
 As I learn new Data Science techniques, I would like to refine this model to account for Make, Model, Colours and other categorical features that significantly influence second-hand car prices. :sunglasses:
 
 ## The Product:   

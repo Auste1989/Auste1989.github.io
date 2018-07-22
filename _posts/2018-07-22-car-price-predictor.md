@@ -31,11 +31,11 @@ As the last step of cleaning process, I dropped all the cars that had any missin
 
 ### Modelling:
 In search for the best model I explored a few options:
-1. Simple model with no transformation to any of the variables
-2. A model with logarithmic price transformation (normalized the distribution)
+* Simple model with no transformation to any of the variables
+* A model with logarithmic price transformation (normalized the distribution)
 
 ![Missing Image]({{"/assets/Price_Transformation.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/Price_Transformation.png"}})
-3. Linear Regression model after normalization and regularization (Ridge and Lasso)  
+* Linear Regression model after normalization and regularization (Ridge and Lasso)  
  
 **Number 2 won the race!**
 

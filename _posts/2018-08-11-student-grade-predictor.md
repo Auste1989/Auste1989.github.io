@@ -23,7 +23,7 @@ Choosing the right algorithm and hyper-parameters was quite a challenge. I ended
   6. Support Vector Classifier (SVC)
   7. Stochastic Gradient Descent (SGD)
 
-![ROC Curve Image Missing]({{"/assets/ROC_Curve.png"|https://github.com/mastaus/mastaus.github.io/blob/draft/assets/ROC_Curve.png}})
+![ROC Curve Image Missing]({{"/assets/ROC_Curve.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/ROC_Curve.png}})
 
 In addition, I experimented with three oversampling techniques (SMOTE, Random Over Sampler and ADASYN), but they did not help to make the model more accurate.
 

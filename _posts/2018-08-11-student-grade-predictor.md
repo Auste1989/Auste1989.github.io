@@ -30,7 +30,7 @@ In addition, I experimented with three oversampling techniques (SMOTE, Random Ov
 ## Results
 
 ## The Product
-![Image Missing]({{"/assets/app_interface.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/app_interface.png}})
+![Image Missing]({{"/assets/app_interface.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/app_interface.png}})  
 If you would like to see my code or play around with the model itself, checkout my [GitHub page](https://github.com/mastaus/metis_projects/tree/master/Student_Grade_Estimator).   
 If you would like to see my final presentation [click here]().  
 

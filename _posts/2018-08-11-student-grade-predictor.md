@@ -25,7 +25,7 @@ Choosing the right algorithm and hyper-parameters was quite a challenge. I ended
   6. Support Vector Classifier (SVC)
   7. Stochastic Gradient Descent (SGD)
 
-![ROC Curve Image Missing]({{"/assets/ROC_Curve.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/ROC_Curve.png}})
+![ROC Curve Image Missing]({{"/assets/images/ROC_Curve.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/ROC_Curve.png}})
 
 In addition, since my datasets were imbalanced, i.e. almost 80% of all students had a pass and only about 20% had a fail, I experimented with three oversampling techniques (SMOTE, Random Over Sampler and ADASYN). Unfortunately, oversampling did not help to make the model more accurate, because my under-represented class data does not cluster together.
 
@@ -41,8 +41,8 @@ And finally, here are some conclusions of my analysis:
 * The most interesting finding, in my opinion, was that the probability to Pass peaks at the average level of Free Time / Going Out / Weekend Alcohol Consumption, ceteris paribus.
 
 ## The Product
-![Image Missing]({{"/assets/app_interface.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/app_interface.png}})  
-If you would like to see my code or play around with the model itself, checkout my [GitHub page](https://github.com/mastaus/metis_projects/tree/master/Student_Grade_Estimator).   
+![Image Missing]({{"/assets/app_interface.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/app_interface.png}})  
+If you would like to see my code or play around with the model itself, checkout my [GitHub page](https://github.com/mastaus/metis_projects/tree/master/Student_Grade_Prediction).   
 If you would like to see my final presentation [click here](https://docs.google.com/presentation/d/1wmb2Ji1rNFuHmTfFX56D8FBWS-bie00pFKp-HW8TsTM/edit#slide=id.p).  
 
 ### I hope you enjoyed my post and look out for the next one!

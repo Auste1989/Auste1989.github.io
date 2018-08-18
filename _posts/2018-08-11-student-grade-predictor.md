@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Will You Pass?
-dark: false
 image:
       url: /media/2018-07-22-student-grade-predictor/cover.jpg
 ---

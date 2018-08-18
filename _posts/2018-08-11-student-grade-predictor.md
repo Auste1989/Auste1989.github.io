@@ -36,12 +36,17 @@ To summarize my work, I created a Flask app, so that students could actually int
 
 And finally, here are some conclusions of my analysis:
 * As the Study Time increases, all things held constant, so does the probability to Pass, but it does so with diminishing returns.
+
+![Image Missing]({{"/assets/images/study_time.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/study_time.png}}) 
+
 * As previous failures increase, all things held constant, the probability to Pass drops dramatically.
 * The better educated are student's parents, the more likely they are to Pass the class.
 * The most interesting finding, in my opinion, was that the probability to Pass peaks at the average level of Free Time / Going Out / Weekend Alcohol Consumption, ceteris paribus.
 
+![Image Missing]({{"/assets/images/free_time.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/free_time.png}})
+
 ## The Product
-![Image Missing]({{"/assets/app_interface.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/app_interface.png}})  
+![Image Missing]({{"/assets/images/app_interface.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/app_interface.png}})  
 If you would like to see my code or play around with the model itself, checkout my [GitHub page](https://github.com/mastaus/metis_projects/tree/master/Student_Grade_Prediction).   
 If you would like to see my final presentation [click here](https://docs.google.com/presentation/d/1wmb2Ji1rNFuHmTfFX56D8FBWS-bie00pFKp-HW8TsTM/edit#slide=id.p).  
 

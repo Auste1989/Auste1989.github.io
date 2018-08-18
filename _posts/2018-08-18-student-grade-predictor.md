@@ -3,7 +3,7 @@ layout: post
 title: Will You Pass?
 dark: true
 image:
-      url: /media/2018-08-11-student-grade-predictor/cover.jpg
+      url: /media/2018-08-18-student-grade-predictor/cover.jpg
 ---
 ## Intro  
 We live in a society where kids and teenagers are put under increasingly more pressure. Pressure to do well at school, to get best grades, to find a great job and beyond...

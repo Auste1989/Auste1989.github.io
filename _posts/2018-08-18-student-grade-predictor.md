@@ -5,18 +5,18 @@ dark: true
 image:
       url: /media/2018-08-18-student-grade-predictor/cover.jpg
 ---
-## Intro  
+## Intro:  
 We live in a society where kids and teenagers are put under increasingly more pressure. Pressure to do well at school, to get best grades, to find a great job and beyond...
 
-## Motivation
+## Motivation:
 With an idea to help our future generation, I decided to work on an application that would allow students to predict their final grade (Pass / Fail) for different disciplines.
 By simply providing some personal, family and discipline related information and seemingly unrelated details about her / his leisure time spending choices, a student would get a prediction (Pass / Fail) and a corresponding probability to pass (in %).
 
-## Dataset
+## Dataset:
 This time I chose a relatively clean dataset, prepared by P. Cortez and A. Silva through Portuguese School Survey in 2014. I used two datasets, one containing information about Mathematics discipline, the second one - Portuguese language.   
 The datasets were easy to interact with, but needed variable "dummification" (converting "Yes" / "No" values to 1 / 0). Moreover, some of the variables such as first and second trimester grades had to be removed due to their direct influence on the final grade. Overall, I had 1,045 records, which is on a lower side for a classification problem, but hey, beggars can't be choosers :smiley:  
 
-## Approach  
+## Approach:  
 Choosing the right algorithm and hyper-parameters was quite a challenge. I ended up exploring 7 different classification models (mentioned below) and plenty of parameter combinations for each model, which led me to my best **Random Forest model** (at 87% precision) *(with 150 estimators, balanced class weight, max tree depth of 20, min 10 samples per leaf and min 2 samples per split)*.
   1. K-Nearest Neighbors (KNN)
   2. Logistic Regression
@@ -32,7 +32,7 @@ In addition, since my datasets were imbalanced, i.e. almost 80% of all students 
 
 All in all, the most straightforward way to improve the model would be to train it with more data, which was not feasible for this particular project given the timeframe.
 
-## Results
+## Results:
 To summarize my work, I created a Flask app, so that students could actually interact with the application and get predictions based on my model *(please see the picture of the interface in the product section)*.  
 
 And finally, here are some conclusions of my analysis:
@@ -46,7 +46,7 @@ And finally, here are some conclusions of my analysis:
 
     ![Image Missing]({{"/assets/images/free_time.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/free_time.png}})
 
-## The Product
+## The Product:
 ![Image Missing]({{"/assets/images/app_interface.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/app_interface.png}})  
 If you would like to see my code or play around with the model itself, checkout my [GitHub page](https://github.com/mastaus/metis_projects/tree/master/Student_Grade_Prediction).   
 If you would like to see my final presentation [click here](https://docs.google.com/presentation/d/1wmb2Ji1rNFuHmTfFX56D8FBWS-bie00pFKp-HW8TsTM/edit#slide=id.p).  

@@ -1,5 +1,5 @@
 ---
-layout: post
+#layout: post
 title: Tackling Customer Churn
 dark: False
 image:

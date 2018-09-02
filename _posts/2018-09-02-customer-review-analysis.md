@@ -3,7 +3,7 @@
 title: Tackling Customer Churn
 dark: False
 image:
-      url: /media/2018-09-03-customer-review-analysis/cover.jpg
+      url: /media/2018-09-02-customer-review-analysis/cover.jpg
 ---
 ## Intro:  
 It always baffled me why companies would rather focus so much on new sales instead of working on customer retention. One of the main excuses in the past was lack of data, while nowadays companies struggle with too much data and lack of talent able to process it.

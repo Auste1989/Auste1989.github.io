@@ -45,7 +45,7 @@ I played around with many different combinations of word vectorizer + dimensiona
 Long story short, Count Vectorizer with NMF generated the most logical separation of and the least overlap between the topics.  
 At this point, I was ready to fit a KMeans machine learning algorithm with the vectorized data and cluster my tweets (below you can see what the clusters looked like, projected on 2 dimensions *(please don't try to interpret the axes)*.
 
-![tSNE Chart is  Missing]({{"/assets/images/new_tSNE.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/new_tSNE.png}})
+![tSNE Chart is  Missing]({{"/assets/images/tSNE.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/tSNE.png}})
 
 Despite the large cluster on the bottom-right, we can clearly see other smaller groups of tweets, which is awesome! Now my model can be used to categorize new tweets that it hasn't yet seen.  
 As a final step, I assigned an action to each category (cluster) and created a simple recommendation engine that incorporates my sentiment analyzer, vectorizer and clustering algorithm to generate an action recommendation that should, eventually, help reduce airline's customer churn (or that's the idea anyway :smirk:).

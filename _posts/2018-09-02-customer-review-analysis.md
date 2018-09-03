@@ -35,19 +35,20 @@ Before starting the modelling part, I filtered only on the negative tweets, sinc
 **Modelling**  
 I played around with many different combinations of word vectorizer + dimensionality reduction techniques, namely:
 
-* Count vectorizer
-* TF-IDF
-* LSA
-* NMF
-* PCA
-* LDA
+* Count vectorizer with LSA
+* Count vectorizer with NMF
+* Count vectorizer with PCA
+* Count vectorizer with LDA
+* TF-IDF with LSA
+* TF-IDF with PCA
+* TF-IDF with LDA
 
 Long story short, Count Vectorizer with NMF generated the most logical separation of and the least overlap between the topics.  
-At this point, I was ready to fit a KMeans machine learning algorithm with the vectorized data and cluster my tweets (below you can see what the clusters looked like, projected on 2 dimensions *(please don't try to interpret the axes)*.
+At this point, I was ready to fit a KMeans machine learning algorithm with the vectorized data and cluster my tweets (below you can see what the clusters looked like, projected on 2 dimensional space *(please don't try to interpret the axes)*.
 
 ![tSNE Chart is  Missing]({{"/assets/images/tSNE.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/tSNE.png}})
 
-Despite the large cluster on the bottom-right, we can clearly see other smaller groups of tweets, which is awesome! Now my model can be used to categorize new tweets that it hasn't yet seen.  
+Despite the large cluster of gold-ish colour at the top, we can clearly see other smaller groups of tweets, which is awesome! This means that my model is able to distinguish tweets of different topics.  
 As a final step, I assigned an action to each category (cluster) and created a simple recommendation engine that incorporates my sentiment analyzer, vectorizer and clustering algorithm to generate an action recommendation that should, eventually, help reduce airline's customer churn (or that's the idea anyway :smirk:).
 
 ## Results:

@@ -22,17 +22,39 @@ The **Weather dataset** contains daily precipitation, snowfall, snow depth, maxi
 More information about **weather** dataset can be found [here](https://www.ncdc.noaa.gov/).
 
 ## Approach:
+Thorough data analysis and exploration helped me to discover that taxi demand was mostly focused around Chicago downtown and the airports (as clearly visible in the plot below).  
 
-## Project Flow
+![Demand plot is  Missing]({{"/assets/images/Chicago_Taxi_Demand_map.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/Chicago_Taxi_Demand_map.png}})  
 
-![Demand plot is  Missing]({{"/assets/images/Chicago_Taxi_Demand_map.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/Chicago_Taxi_Demand_map.png}})
+A further look into it, showed that my trip duration and fare (my target variables) were both skewed to the right, with most rides being distributed under 30 minutes and $20.
+
+Another key take-away from data exploration was that my data clearly had time series related patterns, most notably, weekday and time of day. Please see the heat-map.
 
 ![Demand heatmap is  Missing]({{"/assets/images/Taxi_Demand_Heatmap.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/Taxi_Demand_Heatmap.png}})
 
+In order to understand how many lags to take as features for demand prediction, I used partial autocorrelation plot (please see below).  
+
 ![Partial Autocorrelation plot is  Missing]({{"/assets/images/Partial_Autocorrelation.png"|https://github.com/mastaus/mastaus.github.io/blob/master/assets/images/Partial_Autocorrelation.png}})
+
+I concluded that 7 most recent lags, 96th and 672nd lags were enough to get a relatively good prediction.
+
+## Project Flow
+* User inputs origin / destination addresses and either chooses to travel now or enters a date and time
+* Application retrieves historical demand of the last 7 days from postgreSQL database
+* Differences the demand (calculates the increase / decrease from the previous timestamp) to remove the underlying trend
+* Generates 9 lags and removes all the NaN values
+* Finally, the algorithm uses standard scaler (used in the training of the model) to scale the variables
+* Demand predictor model (OLS model) uses the latter demand feature array to predict the demand for the date and time provided by the user
+* Weather information for that day is retrieved from a postgreSQL database
+* 
+
+
+
 
 
 
 ## The Product:
+If you would like to see a demo of my final product [click here](https://github.com/mastaus/metis_projects/blob/master/Time_Is_Money/Images/App%20Demo.mov).
+
 If you would like to see my code or play around with the model itself, checkout my [GitHub page](https://github.com/mastaus/metis_projects/tree/master/Time_Is_Money).   
 If you would like to see my final presentation [click here](https://docs.google.com/presentation/d/1xriOO8WHoY4NUBwriFRxvHKcMS5Cd_-agxeiourH7Ko/edit#slide=id.g35ed75ccf_0106).  

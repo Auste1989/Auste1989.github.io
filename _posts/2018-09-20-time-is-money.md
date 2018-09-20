@@ -1,5 +1,5 @@
 ---
-#layout: post
+layout: post
 title: Time Is Money
 dark: False
 image:

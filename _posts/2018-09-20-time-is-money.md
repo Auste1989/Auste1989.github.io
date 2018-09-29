@@ -56,12 +56,15 @@ I concluded that 7 most recent lags, 96th and 672nd lags were enough to get a re
 
 To visualize my work, I created a Flask app to allow users to interact with my product (a demo video is available on my Github).
 
+## Results
+* My final model for ETA prediction explains 86% of the variance (in the test set) and generates a prediction within ± 4min.
+*  That for fare explains 97% of the variance and generates a prediction within ± $1.5.
+
 ## Fun facts
   * Interestingly, when looking at feature importance, for ETA prediction demand seems to be the seconds most important feature after distance, whereas it is pretty insignificant when estimating the fare. This is clearly the result of lack of transparency in the regular taxi business (unlike Lyft / Uber)
   * Out of all the features, weather related variables have close to no influence on the either duration or fare of a taxi trip
 
-## The Product:
-If you would like to see a demo of my final product [click here](https://github.com/mastaus/metis_projects/blob/master/Time_Is_Money/Images/App%20Demo.mov).  
+## The Product: 
 If you would like to see my code or play around with the model itself, checkout my [GitHub page](https://github.com/mastaus/metis_projects/tree/master/Time_Is_Money).   
 If you would like to see my final presentation [click here](https://docs.google.com/presentation/d/1xriOO8WHoY4NUBwriFRxvHKcMS5Cd_-agxeiourH7Ko/edit#slide=id.g35f391192_00).  
 
